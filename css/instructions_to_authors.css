@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ec5237, #7e0300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vw;
+}
+h2{
+    margin-top: 8px;
+    font-size: 2vw;
+}
+ul{
+    margin:0px 0px;
+}
+li{
+    letter-spacing: 1px;
+    margin-left: 1px;
+    /* margin: 0px -25px; */
+    text-align:justify;
+    text-indent: 12vh;
+    font-size: 1.5vw;
+}
+p{
+    letter-spacing: 1px;
+    margin-top: 8px;
+    text-align: left;
+    text-indent: 12vh;
+    font-size: 1.5vw;
+    margin: -6px 6px;
+    padding: 0px 6px;
+
+}
+a{
+    text-decoration: none;
+    color: #3952a3;
+}
+a:hover{
+    color: rgb(50, 127, 216);
+}

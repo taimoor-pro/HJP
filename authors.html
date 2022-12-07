@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hamdard Journal of Pharmacy</title>
+    <link
+      href="assets/css/bootstrap.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link
+      href="assets/css/style.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="keywords"
+      content="Graphic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"
+    />
+    <script type="application/x-javascript">
+      addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="http://hakim-said.com.pk/wp-content/uploads/2020/03/hakim-1.png"
+    />
+    <script src="assets/js/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        size_li = $("#myList li").size();
+        x = 3;
+        $("#myList li:lt(" + x + ")").show();
+        $("#loadMore").click(function () {
+          x = x + 1 <= size_li ? x + 1 : size_li;
+          $("#myList li:lt(" + x + ")").show();
+        });
+        $("#showLess").click(function () {
+          x = x - 1 < 0 ? 1 : x - 1;
+          $("#myList li")
+            .not(":lt(" + x + ")")
+            .hide();
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- header -->
+    <div class="banner">
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <a
+              ><img
+                src="assets/images/HJP_logo.png"
+                class="img-responsive"
+                alt="/"
+            /></a>
+          </div>
+          <div class="header-right">
+            <ul>
+              <li><a style="color: #fff">Logout</a></li>
+
+              <li><a style="color: #fff">Signin</a></li>
+
+              <!--	<li style="color:#fff">|</li>
+					 <li><a style="color:#fff" href="#">SignUp</a></li> -->
+              <!--	<li>
+				<div class="search2">
+					<form>
+						<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}">
+						<input type="submit" value="">
+					</form>
+				</div></li> -->
+              <div class="clearfix"></div>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="head-nav">
+          <span class="menu"> </span>
+          <ul class="cl-effect-15">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li>
+              <a href="editorial_board.html">Editorial & Advisory Board</a>
+            </li>
+            <li><a href="authors.html">Authors Instruction</a></li>
+            <li><a href="ethics.html">Ethics</a></li>
+            <li><a href="archives.html">Archives</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <!-- script-for-nav -->
+        <script>
+          $("span.menu").click(function () {
+            $(".head-nav ul").slideToggle(300, function () {
+              // Animation complete.
+            });
+          });
+        </script>
+        <!-- script-for-nav -->
+      </div>
+    </div>
+    <!-- header -->
+
+    <!-- content -->
+    <div class="about">
+      <div class="container">
+        <h2>Instruction to Authors</h2>
+        <div class="biography">
+          <div class="biographys">
+            <div class="col-md-12 biography-into">
+              <h4>Online Submission</h4>
+              <p style="font-size: 16px">
+                Authors are instructed to submit papers according to the scope
+                of the journal. The manuscript should be submitted via e-mail to
+                <span style="color: blue"
+                  >editorinchief.HJP@hamdard.edu.pk</span
+                >
+                or <span style="color: blue">HJP@hamdard.edu.pk</span>
+              </p>
+
+              <h4>Types of Manuscript</h4>
+              <ul>
+                <li>
+                  <p style="font-size: 16px; text-align: justify;">Original full length paper</p>
+                </li>
+
+                <li>
+                  <p style="font-size: 16px; text-align: justify;">Short communication</p>
+                </li>
+
+                <li>
+                  <p style="font-size: 16px; text-align: justify;">Review articles</p>
+                </li>
+
+                <li>
+                  <p style="font-size: 16px; text-align: justify;">
+                    Case report and Letter to Editor
+                  </p>
+                </li>
+              </ul>
+
+              <h4>Manuscript Text</h4>
+              <ul style="list-style-type: none; text-align: justify;">
+                <li>
+                  <p style="font-size: 16px; text-align: justify;">
+                    Manuscript should be brief; English should be the medium of communication, concise and typed in 1.15 line space with 1 inch margin on right side, 1.5 inch on left side. Ensure a cover letter mentioning the title and affiliations of author(s).
+                  </p>
+                </li>
+              </ul>
+
+              <h4>Pages</h4>
+              <p style="font-size: 16px; text-align: justify;">
+                Abbreviations and name of species (italics or underlined) should
+                be defined the first time that they are used in the article. All
+                pages should be numbered.
+              </p>
+
+              <h4>Organized</h4>
+              <p style="font-size: 16px; text-align: justify;">
+                Papers.may.be.organized.as under: Abstract (200-350 words),
+                Introduction, Materials and Methods, Results, Discussion,
+                Conclusion, Acknowledgements and References.
+              </p>
+
+              <h4>Keyword</h4>
+              <p style="font-size: 16px; text-align: justify;">Given Minimum three keyword.</p>
+
+              <h4>Tables</h4>
+              <p style="font-size: 16px; text-align: justify;">
+                Tables should be titled, self-descriptive.
+              </p>
+
+              <h4>Figures</h4>
+              <p style="font-size: 16px; text-align: justify;">
+                To ensure the highest print quality, must be submitted in JPEG
+                format.
+              </p>
+
+              <h4>Photographs</h4>
+              <p style="font-size: 16px; text-align: justify;">
+                Should be provided where required in TIFF or JPEG format. Each
+                Figure, Table and Photograph must be at the end of the paper.
+              </p>
+
+              <h4>Reference Literature should</h4>
+              <p style="font-size: 16px; text-align: justify;">
+                Be cited in Harvard, Numbered or Vancouver style.
+              </p>
+
+              <h4>Conflict of Interest</h4>
+              <p>Mention if any.</p>
+              <h4>Review Process</h4>
+              <p style="font-size: 16px; text-align: justify;">
+                After receiving the manuscript considered by the Editor In chief
+                it is forwarded to the sub editors and HJP members of editorial
+                board who will supervise the review process. Articles that are
+                in poor accordance with Journal format and not complying with
+                the guidelines will be returned to the authors without
+                review.
+                Authors should return the Manuscript requiring revision within
+                two months of the date of the request for revision, after the
+                said time it will be considered as new submission.
+              </p>
+              <img src="/images/timing and review process-page-001.jpg" alt="Loding......." width="100%" height="725px">
+              <h4>Plagiarism</h4>
+              <p style="font-size: 16px; text-align: justify;">
+                Manuscripts should not have similarity index of more than 18% .
+              </p>
+
+              <h4>Funding</h4>
+              <p style="font-size: 16px; text-align: justify;">
+                Mention the name of funding agency (If any).
+              </p>
+
+              <h4>Change To Authorship</h4>
+              <p style="font-size: 16px; text-align: justify;">
+                Authors are expected to carefully choose and list the authors before submitting their manuscript. Any additon, rearrangemnt or deletion of authors in the authorship list should be made only "BEFORE" the manuscript has been accepted. 
+              </p>
+            </div>
+
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content -->
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="col-md-6 copy">
+          <h6 style="color: #fff">
+            Copyright © 2021 Hamdard Journal of Pharmacy
+          </h6>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- footer -->
+  </body>
+</html>

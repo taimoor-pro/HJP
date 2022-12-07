@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hamdard Journal of Pharmacy</title>
+    <style>
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+      }
+
+      .title {
+        color: grey;
+        font-size: 18px;
+      }
+
+      .heading {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    </style>
+    <link
+      href="assets/css/bootstrap.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link
+      href="assets/css/style.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="http://hakim-said.com.pk/wp-content/uploads/2020/03/hakim-1.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="keywords"
+      content="Graphic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"
+    />
+    <script type="application/x-javascript">
+      addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="assets/js/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        size_li = $("#myList li").size();
+        x = 3;
+        $("#myList li:lt(" + x + ")").show();
+        $("#loadMore").click(function () {
+          x = x + 1 <= size_li ? x + 1 : size_li;
+          $("#myList li:lt(" + x + ")").show();
+        });
+        $("#showLess").click(function () {
+          x = x - 1 < 0 ? 1 : x - 1;
+          $("#myList li")
+            .not(":lt(" + x + ")")
+            .hide();
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- header -->
+    <div class="banner">
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <a
+              ><img
+                src="assets/images/HJP_logo.png"
+                class="img-responsive"
+                alt="/"
+            /></a>
+          </div>
+          <div class="header-right">
+            <ul>
+              <li><a style="color: #fff">Logout</a></li>
+
+              <li><a style="color: #fff">Signin</a></li>
+
+              <!--	<li style="color:#fff">|</li>
+					 <li><a style="color:#fff" href="#">SignUp</a></li> -->
+              <!--	<li>
+				<div class="search2">
+					<form>
+						<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}">
+						<input type="submit" value="">
+					</form>
+				</div></li> -->
+              <div class="clearfix"></div>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="head-nav">
+          <span class="menu"> </span>
+          <ul class="cl-effect-15">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li>
+              <a href="editorial_board.html">Editorial & Advisory Board</a>
+            </li>
+            <li><a href="authors.html">Authors Instruction</a></li>
+            <li><a href="ethics.html">Ethics</a></li>
+            <li><a href="archives.html">Archives</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <!-- script-for-nav -->
+        <script>
+          $("span.menu").click(function () {
+            $(".head-nav ul").slideToggle(300, function () {
+              // Animation complete.
+            });
+          });
+        </script>
+        <!-- script-for-nav -->
+      </div>
+    </div>
+    <!-- header -->
+
+    <!-- content -->
+    <div class="about">
+      <div class="container">
+        <h2>Editorial Board</h2>
+        <div class="biography">
+          <div class="biographys">
+            <div class="col-md-12 biography-into">
+              <table class="table">
+                <tr>
+                  <td>
+                    <p><b>Patron</b></p>
+                  </td>
+                  <td>
+                    <p>Mrs. Sadia Rashid</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><b>Co-Patrons</b></p>
+                  </td>
+                  <td>
+                    <p>
+                      Prof. Dr. Syed Shabib-ul-Hasan<br />
+                      Prof. Dr. Azher Hussain
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><b>Editor In-Chief</b></p>
+                  </td>
+                  <td>
+                    <p>Prof. Dr. Shamim Akhtar</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><b>Managing Editors:</b></p>
+                  </td>
+                  <td>
+                    <p>
+                      Prof. Dr. Syed Baqir S. Naqvi<br />
+                      Prof. Dr. Muhammad Arif<br />
+                      Prof. Dr. Sheikh Abdul Khaliq<br />
+                      Prof. Dr. Ishrat Imran<br />
+                      Dr. Hina Sharif<br />
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><b>Associate Editor:</b></p>
+                  </td>
+                  <td>
+                    <p>Dr. Laila Anwar</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><b>HJP Team Members</b></p>
+                  </td>
+                  <td>
+                    <p>
+                      Prof. Dr. Kamran Zaheer<br />
+                      Dr. Tahmina Adnan<br />
+                      Dr. Syed Tahir Ali<br />
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><b>Technical Support</b></p>
+                  </td>
+
+                  <td>
+                    <p>Mr. Athar Masroor</p>
+                  </td>
+                </tr>
+              </table>
+              <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <div class="container">
+        <h2>Advisory Board</h2>
+        <div class="biography">
+          <div class="biographys">
+            <div class="col-md-12 biography-into">
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof Dr. Abid Ali</h1>
+                  <p class="title">
+                    H.E.J Research Institute of Chemistry, <br />
+                    International Center for Chemical and Biological Sciences,
+                    <br />
+                    University of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Hesham Al-Seedi</h1>
+                  <p class="title">
+                    Department of Medicinal Chemistry, Uppsala University,
+                    Biomedical Centre,
+                    <br />
+                    Uppsala, Sweden.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Ahsana Dar</h1>
+                  <p class="title">
+                    Faculty of Eastern Medicine Hamdard University, Karachi,
+                    Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. M. Hafiz Ur Rehman</h1>
+                  <p class="title">
+                    Dr. Panjwani Center for Molecular <br />
+                    Medicine and Drug Research (PCMD) International Center for
+                    Chemical and Biological Sciences <br />
+                    University of Karachi, Karachi, Pakistan
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Asmat Salim</h1>
+                  <p class="title">
+                    Dr. Panjwani Center for Molecular Medicine and Drug Research
+                    (PCMD), <br />
+                    International Center for Chemical and Biological Sciences,
+                    <br />
+                    University of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. Iyad Naeem Muhammad</h1>
+                  <p class="title">
+                    Department of Pharmaceutics
+
+                    <br />
+                    Faculty of Pharmacy <br />
+                    University of Karachi, Karachi, Pakistan
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. Ayaz Ahmad</h1>
+                  <p class="title">
+                    Dr. Panjwani Center for Molecular Medicine and Drug Research
+                    (PCMD), International Center for Chemical and Biological
+                    Sciences, <br />
+                    University of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Jamshed Kazmi</h1>
+                  <p class="title">
+                    Vice Chancellor Sohail University, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr Anwar Ul Hassan Gillani</h1>
+                  <p class="title">
+                    Vice Chancellor, University of Haripur, KPK, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Kiran Rafiq</h1>
+                  <p class="title">
+                    Department of Pharmaceutical Chemistry, Institute of
+                    Pharmaceutical Sciences, Jinnah Sindh Medical University
+                    Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Faiyaz H. M. Vaid</h1>
+                  <p class="title">
+                    Department of Pharmaceutical Chemistry, Faculty of Pharmacy,
+                    <br />
+                    University of Karachi Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Muhammad Harris Shoaib</h1>
+                  <p class="title">
+                    Department of Pharmaceutics, Faculty of Pharmacy, University
+                    of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Ghazala H. Rizwani</h1>
+                  <p class="title">
+                    Dean Research Hamdard University, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. Muhammad Aslam</h1>
+                  <p class="title">
+                    Department of Pharmacology, Faculty of Pharmacy, University
+                    of Sindh, Jamshoro, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. Ghulam Abbas</h1>
+                  <p class="title">
+                    Department of Pharmacology, Faculty of Pharmacy, Zia Uddin
+                    University, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Iqbal Azhar</h1>
+                  <p class="title">
+                    Department of Pharmacognosy, Faculty of Pharmacy, University
+                    of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. Nuzhat Sultana</h1>
+                  <p class="title">
+                    Department of Pharmacology, Faculty of Pharmacy, University
+                    of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. Najia Rahim</h1>
+                  <p class="title">
+                    Chairperson Department of Pharmacy Practice, Dow College of
+                    Pharmacy Faculty of Pharmaceutical Sciences, Dow University
+                    of Health Sciences, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Muhammad Iqbal Chaudhary</h1>
+                  <p class="title">
+                    Director, <br />
+                    International Center for Chemical and Biological
+                    Sciences,<br />
+                    University of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Roger M. Phillips</h1>
+                  <p class="title">
+                    Associate Dean of Research University of Huddersfield, West
+                    Yorkshire, United Kingdom.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. Maqsood Ahmed Chotani</h1>
+                  <p class="title">
+                    Dr. Panjwani Center for Molecular Medicine and Drug Research
+                    (PCMD) International Center for Chemical and Biological
+                    Sciences, <br />
+                    University of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr.Rabia Ismail Yousuf</h1>
+                  <p class="title">
+                    Department of Pharmaceutics, Faculty of Pharmacy, University
+                    of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. Mudassar Azhar</h1>
+                  <p class="title">
+                    Dr. Panjwani Center for Molecular Medicine and Drug Research
+                    (PCMD) International Center for Chemical and Biological
+                    Sciences,<br />
+                    University of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Rahela Ikram</h1>
+                  <p class="title">
+                    Dean, Faculty of Pharmacy, Salim Habib University, Karachi,
+                    Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. S. M. Farid Hasan</h1>
+                  <p class="title">
+                    Department of Pharmaceutics, Faculty of Pharmacy, University
+                    of Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Mohammad Hossein Boskabady</h1>
+                  <p class="title">
+                    Neurogenic Inflammation Research Center Department of
+                    Physiology, School of Medicine, Mashhad University of
+                    Medical Sciences, Mashhad, Iran.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. Sadia Shakeel</h1>
+                  <p class="title">
+                    Department of Pharmacy Practice Dow College of Pharmacy
+                    Faculty of Pharmaceutical Sciences, Dow University of Health
+                    Sciences, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Nousheen Mushtaq</h1>
+                  <p class="title">
+                    Department of Pharmaceutical Chemistry, University of
+                    Karachi, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Prof. Dr. Safila Naveed</h1>
+                  <p class="title">
+                    Department of Pharmaceutical Chemistry, Faculty of Pharmacy,
+                    Jinnah University for Women, Karachi, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <h1 class="heading">Dr. Zia urRehman</h1>
+                  <p class="title">
+                    Chairman Deptartment of Pharmacy, Faculty of Health
+                    Sciences, Sardar Bahadur Khan Women University, Quetta,
+                    Balochistan, Pakistan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content -->
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="col-md-6 copy">
+          <h6 style="color: #fff">
+            Copyright © 2021 Hamdard Journal of Pharmacy
+          </h6>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- footer -->
+  </body>
+</html>

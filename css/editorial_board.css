@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ec5237, #7e0300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vw;
+}
+
+.start {
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 14px 0px;
+    text-align: center;
+    font-size: 2vw;
+}
+
+
+    /* list of advitisor board */
+.parent {
+    display: flex;
+    margin: 0px 142px;
+}
+.child1 {
+    width: 100%;
+}
+.child2{
+    width: 100%;
+    margin: -4px -13px;
+}
+
+.set{
+    
+    letter-spacing: 1px;
+    text-align:left;
+    font-size: 1.3vw;
+    /* font-style: italic; */
+    margin: 0;
+    padding: 0px 0px;
+}
+
+em {
+    display: none;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.2vw;
+    margin-bottom: 12px;
+    display: block;
+    font-size: 3vh;
+    margin-left: 45px;
+}
+/* Sub_Headings */
+#sub_headings{
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-style: normal;
+}
+
+/* Goals */
+h2{
+    margin-top: 8px;
+    font-size: 2vw;
+}
+
+p{
+    letter-spacing: 1px;
+    margin-top: 8px;
+    text-align: center;
+    text-indent: 1vh;
+    font-size: 1.5vw;
+    margin: -6px 0px;
+    padding: 0px 0px;
+}
+
+li{
+    letter-spacing: 1px;
+    /* margin-top: 8px; */
+    margin: 0px -25px;
+    text-align:left;
+    text-indent: 12vh;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+.right {
+    text-align: left;
+    margin: 0px 20px;
+}

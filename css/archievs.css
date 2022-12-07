@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ec5237, #7e0300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vw;
+}
+
+p{
+    letter-spacing: 1px;
+    margin-top: 8px;
+    text-align: left;
+    text-indent: 12vh;
+    font-size: 1.5vw;
+}
